@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome, {{ name }}!</h1>
+      <p>Your personalized Flask dashboard</p>
+      <nav>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/employeePage">employeePage</a>
+        <a href="signup">signup</a>
+      </nav>
+    </header>
+    <!-- rest of content -->
+  </div>
+  
+    <h2>Project Summary</h2>
+    <p>This Flask application demonstrates basic routing, template rendering, and modular page design. It is ideal for beginners learning web development with Python.</p>
+
+    <h2>Developer Info</h2>
+    <p>Developed by Asad — AI Engineer and Cybersecurity Specialist.</p>
+</body>
+</html>
+

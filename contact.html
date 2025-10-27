@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Contact Information</h1>
+            <p>We’d love to hear from you</p>
+            <nav>
+                <a href="/home">home</a>
+                <a href="/about">About</a>
+                <a href="/employeePage">employeePage</a>
+                <a href="signup">signup</a>
+            </nav>
+        </header>
+
+        <section>
+            <h2>Details</h2>
+            <ul>
+                <li>Email: xyedasadk@gmail.com</li>
+                <li>Phone: +92-300-1234567</li>
+                <li>Location: Badin, Sindh, Pakistan</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Feedback Form (Static)</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your email">
+
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" placeholder="Your message"></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Developed by Asad | AI & Cybersecurity Specialist</p>
+        </footer>
+    </div>
+</body>
+</html>

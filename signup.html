@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Create Your Account</h1>
+            <p>Join our platform and get started today</p>
+            <nav>
+                <a href="/home">Home</a>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+            </nav>
+        </header>
+
+        <section>
+            <h2>Sign Up Form</h2>
+            <form>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" placeholder="Enter your full name">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="Enter your email">
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Choose a username">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Create a password">
+
+                <label for="confirm">Confirm Password:</label>
+                <input type="password" id="confirm" placeholder="Re-enter your password">
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Developed by Asad | AI & Cybersecurity Specialist</p>
+        </footer>
+    </div>
+</body>
+</html>

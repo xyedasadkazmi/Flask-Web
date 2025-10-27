@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Employee Dashboard</h1>
+            <p>Internal employee information panel</p>
+            <nav>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+                <a href="/home">Home</a>
+                <a href="signup">signup</a>
+            </nav>
+        </header>
+
+        <section>
+            <h2>Employee List</h2>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Role</th>
+                </tr>
+                <tr>
+                    <td>001</td>
+                    <td>Asad</td>
+                    <td>AI & Cybersecurity</td>
+                    <td>Lead Engineer</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Ali</td>
+                    <td>Web Development</td>
+                    <td>Frontend Developer</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Sana</td>
+                    <td>Data Science</td>
+                    <td>Data Analyst</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Note</h2>
+            <p>This data is static and for demonstration purposes only.</p>
+        </section>
+
+        <footer>
+            <p>Developed by Asad | AI & Cybersecurity Specialist</p>
+        </footer>
+    </div>
+</body>
+</html>
